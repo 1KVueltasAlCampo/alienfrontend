@@ -160,6 +160,19 @@
             }"
           ></sidebar-item>
         </sidebar-item>
+        <sidebar-item
+          :link="{
+            name: $t('Classification'),
+            icon: 'tim-icons icon-chart-bar-32'
+          }"
+        >
+          <sidebar-item
+            :link="{
+              name: $t('KNN'),
+              path: '/k-nearest-neighbours'
+            }"
+          ></sidebar-item>
+        </sidebar-item>
       </template>
     </side-bar>
     <div class="main-panel" :data="sidebarBackground">
