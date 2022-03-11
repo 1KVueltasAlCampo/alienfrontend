@@ -1,7 +1,7 @@
 <template>
   <div>
     <card class="text-center">
-      <h2 class="card-title">Distribution Input</h2>
+      <h2 class="card-title">KNN</h2>
       <form>
         <div class="form-row">
           <div class="col text-center">

@@ -28,6 +28,8 @@ import ClarkeAndWright from 'src/views/Modules/Routing/ClarkeAndWright';
 import Opt3Move from 'src/views/Modules/Routing/Opt3Move';
 import Sweep from 'src/views/Modules/Routing/Sweep';
 
+import KNN from 'src/views/Modules/Classification/KNN'
+
 Vue.use(Router);
 
 export default new Router({
@@ -145,6 +147,11 @@ export default new Router({
           path: 'sweep',
           name: 'sp',
           components: { default: Sweep }
+        },
+        {
+          path: 'KNN',
+          name: 'KNN',
+          components: { default: KNN}
         },
       ]
     }

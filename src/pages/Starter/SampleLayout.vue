@@ -169,7 +169,7 @@
           <sidebar-item
             :link="{
               name: $t('KNN'),
-              path: '/k-nearest-neighbours'
+              path: '/KNN'
             }"
           ></sidebar-item>
         </sidebar-item>
